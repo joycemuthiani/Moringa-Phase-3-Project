@@ -20,7 +20,7 @@ The project follows these steps:
 6. **Model Evaluation:** Evaluate the model's performance using various metrics, fine-tune the model's hyperparameters.
 
 7. **Deployment and Monitoring:** Deploy the trained model, monitor its performance, and re-train or improve the model as needed.
-8. 
+
 ## Libraries Used
 
 The project uses several Python libraries:
