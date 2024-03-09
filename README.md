@@ -86,7 +86,7 @@ Total intl minutes & total intl charge
 
 ![Diagram](assets/corr.png)
 
-he Logistic Regression model used in this context, with balanced class weights, has shown a good ability to predict customer churn. 
+The Logistic Regression model used in this context, with balanced class weights, has shown a good ability to predict customer churn. 
 It has an accuracy of approximately 77%, and the ROC curve indicates a good balance between sensitivity and recall. 
 The confusion matrix shows that the model has a higher number of false positives, indicating that it tends to predict churn where there isn't any. 
 However, it's better to predict potential churn and take preventive measures than to miss out on customers who might churn.
@@ -104,4 +104,4 @@ The discrimination threshold plot can be used to adjust the threshold for predic
 
 Stacking ROC Curve 
 
-![Diagram](assets/stackingroc.png)
+![Diagram](assets/StackingROC.png)
