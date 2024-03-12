@@ -96,12 +96,23 @@ The discrimination threshold plot can be used to adjust the threshold for predic
 
 
 ## Conclusion 
-**Decision:**
+
 - The ensemble stacking model outperforms the individual models, demonstrating the highest accuracy, recall, precision, and F1 score on both test and training data.
 - The stacking model is recommended for its improved overall performance in predicting the target variable.
+
+
+ 
 
 ![Diagram](assets/stacking.png)
 
 Stacking ROC Curve 
 
 ![Diagram](assets/StackingROC.png)
+
+
+## Recommendations
+
+1. Leverage existing customer data for churn predictions: Conduct a thorough review of the available customer data, including demographics ,call history,service plans and any other relevant variables.Regularly update and refine the churn prediction model as new data becomes available to maintain its accuracy and effectiveness.
+2. Evaluate Retention Strategies and interventions: Continuously iterate and optimize retention efforts based on the results of experiments and ongoing analysis.
+3. Identify factors driving customer churns: Utilize statistical methods and machine learning techniques to identify the most significant drivers to churn.
+4. Segment Customers and tailor retention strategies: Continuously monitor and analyse the effectiveness of retention strategies for each segment, adjusting tactics as needed based on evolving customer dynamics. 
